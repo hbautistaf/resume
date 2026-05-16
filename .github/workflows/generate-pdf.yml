@@ -17,7 +17,7 @@ jobs:
       - name: Build PDF from Markdown
         uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_path: resume.md
+          input_path: resume-hbautista.md
           output_dir: docs
           build_html: true
           print_options: '{"displayHeaderFooter": false, "printBackground": true}'
