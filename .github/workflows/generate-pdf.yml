@@ -3,6 +3,10 @@ on:
   push:
     branches: [ main ]
 
+# Give the token write permissions so it can push the compiled PDF back to your repo
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,10 +19,18 @@ jobs:
         with:
           input_path: resume.md
           output_dir: docs
-          # Force a clean HTML build to render custom CSS properly
           build_html: true
-          # Chromium print options to completely strip headers and footers
           print_options: '{"displayHeaderFooter": false, "printBackground": true}'
+
+      # New Step: Commit the generated PDF back into your main branch
+      - name: Commit and Push PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          # Only commit if changes actually exist to prevent empty commit errors
+          git diff-index --quiet HEAD || git commit -m "chore: auto-generate updated resume PDF [skip ci]"
+          git push origin main
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
