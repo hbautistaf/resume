@@ -22,6 +22,13 @@ jobs:
           build_html: true
           print_options: '{"displayHeaderFooter": false, "printBackground": true}'
 
+      - name: Debug - List generated files
+        run: |
+          echo "=== docs/ contents ==="
+          ls -la docs/
+          echo "=== git status ==="
+          git status
+
       # New Step: Commit the generated PDF back into your main branch
       - name: Commit and Push PDF
         run: |
