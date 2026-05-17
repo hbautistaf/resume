@@ -17,15 +17,25 @@ jobs:
       - name: Build PDF from Markdown
         uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_path: resume-hbautista.md
+          input_path: resume.md
           output_dir: docs/
           build_html: true
           print_options: '{"displayHeaderFooter": false, "printBackground": true}'
 
+      # New step: Rename resume.html to index.html
+      name: Prepare docs for Github Pages
+      run: |
+        if [ -f "docs/resume.html" ] ; then
+          mv docs/resume.html docs/index.html
+          echo "Renamed resume.html to index.html"
+        fi
+        echo "resume.hbautista.com" > docs/CNAME
+        echo "CNAME file created/verified"
+
       - name: Debug - List generated files
         run: |
           echo "=== workspace root ==="
-          ls -la | grep resume
+          ls -la | grep resume || true
           echo "=== docs/ contents ==="
           ls -la docs/
           echo "=== git status ==="
@@ -38,7 +48,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add docs/
           if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-generate updated resume PDF [skip ci]"
+            git commit -m "chore: auto-generate updated resume PDF and index.html [skip ci]"
             git push origin main
           else
             echo "No changes to commit"
@@ -47,5 +57,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: resume-pdf
-          path: docs/resume-hbautista.pdf
+          name: resume.pdf
+          path: docs/resume.pdf
