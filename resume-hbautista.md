@@ -4,11 +4,6 @@
 ### SRE Lead @ FICO · Building AI-augmented operations with Claude Code · AWS · Kubernetes · Grafana
 
 📍 Aguascalientes, Mexico · 📩 hbautista [at] gmail.com · [hbautista.com](https://hbautista.com) · [LinkedIn](https://linkedin.com/in/hbautista)
-<p class="no-print">
-  <a href="docs/resume-hbautista.pdf" class="download-btn" style="background: #2563eb; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 10px;">
-    📥 Download PDF Version
-  </a>
-</p>
 
 ---
 
