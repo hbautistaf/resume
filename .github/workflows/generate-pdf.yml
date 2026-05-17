@@ -26,10 +26,10 @@ jobs:
           input_path: resume.md
           output_dir: docs/
           build_html: true
-          print_options: '{"displayHeaderFooter": false, "printBackground": true}'
 
       - name: Prepare docs for GitHub Pages
         run: |
+          sudo chmod -R a+w docs/
           if [ -f "docs/resume.html" ]; then
             mv docs/resume.html docs/index.html
           fi
