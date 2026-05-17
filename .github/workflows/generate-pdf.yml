@@ -1,11 +1,17 @@
 name: Generate Resume PDF
+
 on:
   push:
     branches: [ main ]
 
-# Give the token write permissions so it can push the compiled PDF back to your repo
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -22,40 +28,31 @@ jobs:
           build_html: true
           print_options: '{"displayHeaderFooter": false, "printBackground": true}'
 
-      # New step: Rename resume.html to index.html
-      name: Prepare docs for Github Pages
-      run: |
-        if [ -f "docs/resume.html" ] ; then
-          mv docs/resume.html docs/index.html
-          echo "Renamed resume.html to index.html"
-        fi
-        echo "resume.hbautista.com" > docs/CNAME
-        echo "CNAME file created/verified"
-
-      - name: Debug - List generated files
+      - name: Prepare docs for GitHub Pages
         run: |
-          echo "=== workspace root ==="
-          ls -la | grep resume || true
-          echo "=== docs/ contents ==="
-          ls -la docs/
-          echo "=== git status ==="
-          git status
-
-      # New Step: Commit the generated PDF back into your main branch
-      - name: Commit and Push PDF
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add docs/
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-generate updated resume PDF and index.html [skip ci]"
-            git push origin main
-          else
-            echo "No changes to commit"
+          if [ -f "docs/resume.html" ]; then
+            mv docs/resume.html docs/index.html
           fi
+          echo "resume.hbautista.com" > docs/CNAME
 
-      - name: Upload Artifact
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: resume.pdf
           path: docs/resume.pdf
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
