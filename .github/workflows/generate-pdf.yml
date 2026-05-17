@@ -18,12 +18,14 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: resume-hbautista.md
-          output_dir: docs
+          output_dir: docs/
           build_html: true
           print_options: '{"displayHeaderFooter": false, "printBackground": true}'
 
       - name: Debug - List generated files
         run: |
+          echo "=== workspace root ==="
+          ls -la | grep resume
           echo "=== docs/ contents ==="
           ls -la docs/
           echo "=== git status ==="
