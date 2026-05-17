@@ -176,6 +176,10 @@ tr:nth-child(even) {
    Strict Print Rules (PDF Generation)
    ========================================================================== */
 @media print {
+  .no-print {
+    display: none !important;
+  }
+
   @page {
     size: letter;
     margin: 0; /* Drops native browser margins to wipe default headers/footers */
