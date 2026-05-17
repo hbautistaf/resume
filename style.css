@@ -180,18 +180,36 @@ tr:nth-child(even) {
     display: none !important;
   }
 
+  /* Hide <link> tags placed in body (markdown stylesheet reference) */
+  link {
+    display: none !important;
+  }
+
   @page {
     size: letter;
     margin: 0; /* Drops native browser margins to wipe default headers/footers */
   }
 
   body {
-    padding: 1.5cm 1.5cm; /* Re-applies printable boundaries safe for paper layout */
+    padding: 0.8cm 1.5cm 1.5cm; /* Reduced top padding to tighten header area */
     font-size: 11pt;
     color: #000000;
     background-color: #ffffff;
     -webkit-print-color-adjust: exact; /* Standardizes background color rendering */
     print-color-adjust: exact;
+  }
+
+  /* Tighten paragraph spacing in header area */
+  p {
+    margin: 0.2rem 0;
+  }
+
+  h1 {
+    margin-bottom: 0.25rem;
+  }
+
+  h3 {
+    margin-bottom: 0.25rem;
   }
 
   h1, h2, h3, th {
