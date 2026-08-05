@@ -3,7 +3,7 @@
 # Héctor Bautista Flores
 ### SRE Lead @ FICO · Building AI-augmented operations with Claude Code · AWS · Kubernetes · Grafana
 
-📍 Aguascalientes, Mexico · 📩 hbautista [at] gmail.com · [hbautista.com](https://hbautista.com) · [LinkedIn](https://linkedin.com/in/hbautista)
+📍 Aguascalientes, Mexico · 📩 hbautista [at] gmail.com · <a href="https://hbautista.com" target="_blank" rel="noopener noreferrer">hbautista.com</a> · <a href="https://linkedin.com/in/hbautista" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 ---
 
@@ -124,9 +124,10 @@ Universidad Tecnológica de la Selva · 1999 – 2001
 
 | Certification | Issuer | Valid |
 |---|---|---|
-| AWS Certified Cloud Practitioner | Amazon Web Services · [verify](https://cp.certmetrics.com/amazon/en/public/verify/credential/e3f0acf2a5f74dcf8536444aa1a629e6) | Mar 2026 – Mar 2029 |
-| Microsoft Certified: Azure Fundamentals | Microsoft · [verify](https://learn.microsoft.com/api/credentials/share/en-us/HectorBautista-6532/DCC0DECBAE1DB307?sharingId=AB65708E90DB1843) | Nov 2020 |
-| Claude Code in Action | Anthropic · [verify](https://verify.skilljar.com/c/gd36kexw2yya) | May 2026 |
+| AWS Certified Cloud Practitioner | Amazon Web Services · <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/e3f0acf2a5f74dcf8536444aa1a629e6" target="_blank" rel="noopener noreferrer">verify</a> | Mar 2026 – Mar 2029 |
+| Microsoft Certified: Azure Fundamentals | Microsoft · <a href="https://learn.microsoft.com/api/credentials/share/en-us/HectorBautista-6532/DCC0DECBAE1DB307?sharingId=AB65708E90DB1843" target="_blank" rel="noopener noreferrer">verify</a> | Nov 2020 |
+| Claude Code in Action | Anthropic · <a href="https://verify.skilljar.com/c/gd36kexw2yya" target="_blank" rel="noopener noreferrer">verify</a> | May 2026 |
+| Claude Code 101 | Anthropic · <a href="https://verify.skilljar.com/c/4857paiigjcj" target="_blank" rel="noopener noreferrer">verify</a> | Jul 2026 |
 
 ---
 
@@ -134,7 +135,7 @@ Universidad Tecnológica de la Selva · 1999 – 2001
 
 | Badge | Issuer | Earned |
 |---|---|---|
-| AWS Cloud Quest: Cloud Practitioner | Amazon Web Services · [verify](https://www.credly.com/earner/earned/badge/6e8060ab-b584-44cf-ad84-b051b7d1b5c5) | Jan 2025 |
+| AWS Cloud Quest: Cloud Practitioner | Amazon Web Services · <a href="https://www.credly.com/earner/earned/badge/6e8060ab-b584-44cf-ad84-b051b7d1b5c5" target="_blank" rel="noopener noreferrer">verify</a> | Jan 2025 |
 
 ---
 
