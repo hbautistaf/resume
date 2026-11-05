@@ -1,17 +1,17 @@
 <link rel="stylesheet" href="style.css">
 
 # Héctor Bautista Flores
-### SRE Lead @ FICO · Building AI-augmented operations with Claude Code · AWS · Kubernetes · Grafana
+### Forward Engineer & AI-Augmented Systems Architect · Node/TS · Python · AWS · Kubernetes · Claude Code
 
-📍 Aguascalientes, Mexico · 📩 hbautista [at] gmail.com · <a href="https://hbautista.com" target="_blank" rel="noopener noreferrer">hbautista.com</a> · <a href="https://linkedin.com/in/hbautista" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+\small\faMapMarker\ Aguascalientes, Mexico \quad \faEnvelope\ hbautista [at] gmail.com \quad \faGlobe\ [hbautista.com](https://hbautista.com) \quad \faLinkedin\ [LinkedIn](https://linkedin.com/in/hbautista)
 
 ---
 
 ## Summary
 
-Site Reliability Engineer Lead with 10+ years owning production reliability across AWS and Azure environments at enterprise scale. Experienced driving incident management, observability pipelines, and operational automation for highly distributed, multi-tenant financial decisioning platforms.
+Systems Engineer with 10+ years of experience building, deploying, and operating high-availability cloud infrastructure and backend automation. Deeply focused on **AI-augmented engineering**, leveraging tools like **Claude Code** for 4:1 operational leverage, rapid prototyping, and runbook automation.
 
-Skilled in **Kubernetes**, **Grafana**, Splunk, and **AWS** — focused on eliminating toil, enforcing SLA/SLO/SLI frameworks, and evangelizing SRE culture across engineering teams.
+Proven track record of taking full ownership of production systems, building golden-signal observability pipelines, driving SLA/SLO adherence, and designing resilient API workflows across AWS and Kubernetes. Thrives in async, high-ownership environments where engineers own target outcomes from spec to production.
 
 ---
 
@@ -19,14 +19,13 @@ Skilled in **Kubernetes**, **Grafana**, Splunk, and **AWS** — focused on elimi
 
 | Domain | Technologies |
 |---|---|
-| **Cloud & Infrastructure** | AWS (EC2, EKS, CloudWatch, S3), Azure (PaaS, IaaS, DevOps Pipelines) |
-| **Containers & Orchestration** | Kubernetes, Docker, Amazon EKS, Helm |
-| **Observability** | Grafana, AppDynamics, Splunk, CloudWatch, Zabbix, Kibana |
-| **CI/CD & Automation** | Jenkins, Ansible, Puppet, Git, Azure DevOps, Bash, Python, Go |
-| **Networking** | F5 GTM/LTM (BigIP), Load Balancing, SSL/TLS management |
-| **ITSM & Collaboration** | ServiceNow (ITIL), Jira, Confluence |
-| **AI-Assisted Operations** | Claude Code (Anthropic) — agentic SRE workflows, runbook automation, incident triage |
-| **Operating Systems** | RHEL, Amazon Linux, Windows Server, AIX, Debian/Ubuntu |
+| **AI-Native Engineering** | Claude Code (Anthropic), Agentic Workflows, Evaluation & Triage Automation |
+| **Backend & APIs** | Python, Bash, Node.js/TypeScript fundamentals, RESTful APIs, Webhooks, Idempotency |
+| **Cloud & Orchestration** | AWS (EKS, EC2, S3, CloudWatch), Kubernetes, Docker, Helm |
+| **Observability & Reliability** | Grafana, Splunk, AppDynamics, CloudWatch, SLO/SLA/SLI Frameworks |
+| **Data & Databases** | PostgreSQL/SQL fundamentals, Multi-tenant Data Pipelines, Lifecycle Management |
+| **CI/CD & Automation** | GitHub Actions, Jenkins, Ansible, Azure DevOps, Git |
+| **Networking & Systems** | Linux (RHEL, Debian/Ubuntu), F5 Load Balancing, SSL/TLS Management |
 
 ---
 
@@ -35,87 +34,66 @@ Skilled in **Kubernetes**, **Grafana**, Splunk, and **AWS** — focused on elimi
 ### Site Reliability Engineer Lead · FICO · Feb 2023 – Present
 Aguascalientes Metropolitan Area · Remote
 
-Leading end-to-end production reliability for enterprise-scale financial decisioning platforms serving millions of credit and risk decisions per day — across AWS, EKS, and private cloud. Responsible for incident management, observability, automation, and SRE culture across a highly distributed, multi-tenant architecture.
+Leading end-to-end production reliability and operational leverage for enterprise-scale financial decisioning platforms serving millions of daily risk decisions across AWS, EKS, and multi-tenant architectures. 
 
 **3 Key Results**:
-- Achieved minimal downtime Kubernetes/EKS rolling restarts across all production financial platforms — eliminating deployment-related SLA risk.
-- Built full observability coverage across all 4 golden signals (saturation, traffic, latency, error rate) using Grafana, AppDynamics, CloudWatch, and Splunk — closing the blind spots that previously caused SLA breaches, cutting mean time to detect (MTTD) by ~40%.
-- Introduced Claude Code (Anthropic) for agentic SRE workflows — automating runbook execution and incident triage, reducing manual toil in production response.
+- **Pioneered AI-Native Workflows:** Introduced **Claude Code (Anthropic)** into daily operations to build agentic triage workflows and automated runbook execution, drastically reducing manual toil and accelerating incident resolution.
+- **Full-Stack Observability:** Built end-to-end observability across all 4 golden signals (latency, traffic, errors, saturation) using Grafana, AppDynamics, and Splunk—reducing MTTD by ~40% and ensuring strict SLO/SLA adherence.
+- **Zero-Downtime Deployments:** Engineered minimal-downtime rolling restart strategies for production EKS/Kubernetes clusters across multi-tenant financial environments.
 
 *How I do it*:
-Own the full SRE lifecycle: incident management - blameless postmortems - permanent corrective actions (PCAs) - continuous SLI/SLO/SLA tuning. Enforce ITIL processes through ServiceNow for change control and problem management. Evangelize SRE best practices across the engineering org.
+Own problems end-to-end—from drafting specs and defining telemetry metrics to post-incident analysis and permanent corrective actions. Operate with high autonomy and urgency without needing structured scaffolding.
 
-> **Stack:** `AWS` · `EKS` · `Kubernetes` · `Docker` · `Grafana` · `AppDynamics` · `Splunk` · `CloudWatch`  · `Ansible` · `Puppet` · `Bash` · `ServiceNow` · `Jenkins` · `Jira` · `Claude Code`
+> **Stack:** `Claude Code` · `AWS` · `EKS` · `Kubernetes` · `Grafana` · `Splunk` · `Python` · `Bash` · `Docker` · `Ansible`
 
 ---
 
 ### Technology Specialist · Amdocs · Jun 2018 – Mar 2023
 Zapopan, Jalisco, Mexico · 4 yrs 10 mos
 
-Led middleware infrastructure operations and cloud migration for multi-client enterprise environments — coordinating cross-functional engineering teams across Mexico, USA, and India. Responsible for platform stability, deployment pipelines, and cloud transformation across multiple concurrent enterprise accounts.
+Led middleware infrastructure operations, automation, and Azure cloud migrations for multi-client enterprise platforms across cross-functional distributed teams.
 
 **3 Key Results**:
-- Reduced operational toil by 50% by building Bash automation scripts for recurring service workflows — freeing the team to focus on higher-value engineering work.
-- Led end-to-end Azure cloud migration (PaaS/IaaS/SaaS) for on-prem enterprise applications — aligning stakeholders across geographies and business units to deliver on time.
-- Achieved zero SSL expiration incidents across all accounts by designing and owning a proactive certificate lifecycle management process across multiple environments.
+- **Automation & Toil Reduction:** Built comprehensive Bash and automated scripting suites for service workflows, cutting operational toil by 50%.
+- **Cloud Infrastructure Migration:** Led end-to-end Azure migration (PaaS/IaaS) for legacy enterprise services, maintaining continuous availability and strict integration testing.
+- **Zero-Trust Security & Lifecycle:** Owned proactive SSL/TLS certificate lifecycle management across hundreds of services with zero expiration downtime incidents.
 
-**How I worked**:
-Managed middleware performance and escalated incident resolution for WebLogic, JBoss, WebSphere, and Tomcat environments. Led and coordinated application deployments via Azure DevOps pipelines across non-prod and prod. Mentored team members on CI/CD practices, Git workflows, and Docker/Kubernetes container fundamentals.
-
-> **Stack:** `Azure DevOps` · `WebLogic` · `JBoss` · `WebSphere` · `Tomcat` · `Docker` · `Kubernetes` · `Bash` · `Git` · `ServiceNow` · `Jira`
+> **Stack:** `Azure DevOps` · `Kubernetes` · `Docker` · `Bash` · `Git` · `CI/CD` · `Linux`
 
 ---
 
 ### Software Engineer · Softtek · Sep 2016 – Mar 2018
 Aguascalientes, Mexico · 1 yr 7 mos
 
-Middleware engineer for Java enterprise applications supporting global financial services and telecom clients — operating IBM WebSphere environments in high-availability, multi-geography production settings.
+Engineered middleware and backend integrations supporting high-concurrency Java enterprise workloads for global financial and telecom clients.
 
 **3 Key Results**:
-- Resolved escalated production incidents for global financial and telecom clients by performing root cause analysis and coordinating cross-geography distributed teams — preventing repeat failures.
-- Operated IBM PureApplication System across enterprise-scale environments — managing WebSphere Application Server (WAS) and WebSphere Process Server (WPS) for mission-critical Java workloads.
-- Delivered middleware design reviews and performance analysis in collaboration with application development teams — bridging the gap between dev and ops before DevOps was the norm.
+- High-availability performance profiling and root-cause analysis for mission-critical enterprise systems.
+- Managed distributed multi-region application runtime environments on IBM PureApplication platforms.
+- Collaborated with development teams on API integration design reviews, performance profiling, and fault isolation.
 
-**How I worked**:
-Supported high-stakes middleware environments for clients where downtime was not an option. Coordinated incident resolution across distributed teams spanning multiple geographies and time zones — building the cross-functional collaboration and escalation skills that would define my later SRE career.
-
-> **Stack:** `IBM WebSphere (WAS/WPS)` · `IBM PureApplication` · `Java` · `ServiceNow` · `Linux`
+> **Stack:** `IBM WebSphere` · `Java` · `Linux` · `Distributed Systems`
 
 ---
 
 ### Technical Lead & Backup Administrator · IBM · Sep 2013 – Sep 2016
 Guadalajara / El Salto, Jalisco, Mexico · 3 yrs 1 mo
 
-Technical Lead for Middleware infrastructure, coordinating a cross-geography team across Mexico, USA, and India supporting enterprise accounts.
+Sysadmin and Technical Lead overseeing global backup infrastructure, automation scripts, and server operations across 7,000+ servers.
 
-- Led technical best practices and onboarding for new team members
-- Administered IBM Tivoli Storage Manager (TSM) and R1Soft backup solutions for on-prem and Softlayer cloud servers
-- Coordinated middleware deployments and change control across geographies
+- Developed custom Bash/ksh administration scripts for operational automation across Linux/AIX environments.
+- Administered high-scale enterprise storage, DB2 databases, and backend infrastructure.
 
-> **Stack:** `IBM TSM` · `R1Soft` · `Softlayer` · `Middleware` · `Linux` · `AIX`
-
-
-### IT Specialist, WW DST Backups · IBM · Sep 2013 – Sep 2016
-Guadalajara / El Salto, Jalisco, Mexico
-
-Sysadmin and backup engineer for IBM's worldwide DST operations — part of a global team managing 7,000+ servers hosting hundreds of enterprise projects.
-
-- Administered IBM AIX systems (LPAR/HMC/NIM), Linux (RHEL, SUSE), and Windows Server (2008/2012) environments on-prem and on Softlayer cloud
-- Managed IBM System Z (zLinux/SUSE) — disk cloning, DASD administration, LVM filesystem management
-- Installed and configured IBM WebSphere (WAS/WPS), InfoSphere, and DB2 databases (v9.5–10.1) across AIX, Linux, and Windows
-- Investigated and resolved OS and middleware security vulnerabilities at global account level
-- Developed Bash/ksh automation scripts for server administration and operational efficiency
-
-> **Stack:** `AIX` · `RHEL` · `SUSE` · `IBM TSM` · `WebSphere` · `DB2` · `Softlayer` · `Bash/ksh`
+> **Stack:** `AIX` · `RHEL` · `Bash/ksh` · `Softlayer` · `DB2`
 
 ---
 
 ## Education
 
-**Computer Systems Engineer (I.S.C.)**
+**Computer Systems Engineer (I.S.C.)**  
 Universidad Privada del Sur de México · 2007 – 2010
 
-**Higher Technical Degree in Computer Science (T.S.U.I.)**
+**Higher Technical Degree in Computer Science (T.S.U.I.)**  
 Universidad Tecnológica de la Selva · 1999 – 2001
 
 ---
@@ -124,22 +102,14 @@ Universidad Tecnológica de la Selva · 1999 – 2001
 
 | Certification | Issuer | Valid |
 |---|---|---|
+| **Claude Code 101** | Anthropic · <a href="https://verify.skilljar.com/c/4857paiigjcj" target="_blank" rel="noopener noreferrer">verify</a> | Jul 2026 |
+| **Claude Code in Action** | Anthropic · <a href="https://verify.skilljar.com/c/gd36kexw2yya" target="_blank" rel="noopener noreferrer">verify</a> | May 2026 |
 | AWS Certified Cloud Practitioner | Amazon Web Services · <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/e3f0acf2a5f74dcf8536444aa1a629e6" target="_blank" rel="noopener noreferrer">verify</a> | Mar 2026 – Mar 2029 |
 | Microsoft Certified: Azure Fundamentals | Microsoft · <a href="https://learn.microsoft.com/api/credentials/share/en-us/HectorBautista-6532/DCC0DECBAE1DB307?sharingId=AB65708E90DB1843" target="_blank" rel="noopener noreferrer">verify</a> | Nov 2020 |
-| Claude Code in Action | Anthropic · <a href="https://verify.skilljar.com/c/gd36kexw2yya" target="_blank" rel="noopener noreferrer">verify</a> | May 2026 |
-| Claude Code 101 | Anthropic · <a href="https://verify.skilljar.com/c/4857paiigjcj" target="_blank" rel="noopener noreferrer">verify</a> | Jul 2026 |
-
----
-
-## Training & Badges
-
-| Badge | Issuer | Earned |
-|---|---|---|
-| AWS Cloud Quest: Cloud Practitioner | Amazon Web Services · <a href="https://www.credly.com/earner/earned/badge/6e8060ab-b584-44cf-ad84-b051b7d1b5c5" target="_blank" rel="noopener noreferrer">verify</a> | Jan 2025 |
 
 ---
 
 ## Languages
 
-- **Spanish** — Native or bilingual proficiency
+- **Spanish** — Native proficiency
 - **English** — Professional working proficiency
