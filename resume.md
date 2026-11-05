@@ -3,7 +3,7 @@
 # Héctor Bautista Flores
 ### Forward Engineer & AI-Augmented Systems Architect · Node/TS · Python · AWS · Kubernetes · Claude Code
 
-\small\faMapMarker\ Aguascalientes, Mexico \quad \faEnvelope\ hbautista [at] gmail.com \quad \faGlobe\ [hbautista.com](https://hbautista.com) \quad \faLinkedin\ [LinkedIn](https://linkedin.com/in/hbautista)
+📍 Aguascalientes, Mexico · 📩 hbautista [at] gmail.com · <a href="https://hbautista.com" target="_blank" rel="noopener noreferrer">hbautista.com</a> · <a href="https://linkedin.com/in/hbautista" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 ---
 
